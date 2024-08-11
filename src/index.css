@@ -10,4 +10,14 @@
   body {
     font-family: "Poppins", sans-serif;
   }
+  .container-x {
+    @apply px-10 lg:px-40;
+  }
+  /* Fonts */
+  .main-header {
+    @apply text-5xl font-bold md:text-6xl 2xl:text-7xl;
+  }
+  .paragraph {
+    @apply text-base 2xl:text-xl;
+  }
 }
